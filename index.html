@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" >
+</head>
+
+<body>
+    <h1>My Public IP ADDRESS<span id="ip-address" class="address-ip"></span></h1>
+    <button id="get-data">Get Data</button>
+    <div id="maps-details">
+        <span id="errors" ></span>
+        <div class="lat-long">
+            <div>
+                <p>Lat<span id="lat"></span></p>
+                <p>Long<span id="long"></span></p>
+            </div>
+            <div>
+                <p>City<span id="city"></span></p>
+                <p>Region<span id="region"></span></p>
+            </div>
+            <div>
+                <p>Orgainsation<span id="orgnas"></span></p>
+                <p>Hostname<span id="host"></span></p>
+            </div>
+        </div>
+        <div id="map-container"></div>
+        <div>
+            <p>Time Zone<span id="time-zone"></span></p>
+            <p>Date And Time<span id="date-time"></span></p>
+            <p>Pincode<span id="pincode"></span></p>
+            <p>Messages<span id="message"></span></p>
+        </div>
+        <input type="search" placeholder="Filter" id="search">
+        <div class="post-cont">
+            <div id="post-office-list" class="det-post"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
